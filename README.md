@@ -54,7 +54,7 @@ git clone <YOUR_GITHUB_REPOSITORY_URL>
 Navigate to the project directory:
 
 ```bash
-cd POE_RaceDay_API
+cd POE_RaceDay
 ```
 
 Replace the repository URL with your actual GitHub repository URL.
