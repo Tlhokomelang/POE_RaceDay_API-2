@@ -83,18 +83,18 @@ Starts the application using:
 dotnet run
 ```
 
-The terminal will displays the local URL where the API is running. Use the displayed address to access the API.
+The terminal will displays the local URL where the API is running. Use the displayed addressing to access the API.
 
-## 6. Authentication
+## 6. Authenticates
 
 The API uses JWT authentication to authenticate request to protecting endpoints.
 
 To access a protected endpoint:
 
-1. Obtains a valid JWT token using the authentication functionality provided by the project.
+1. Obtains a valid JWT token using the authenticates functionality providing by the project.
 2. Copy the token.
 3. Including the token in the HTTP request's Authorization header.
-4. Use the Bearer authentication scheme.
+4. Use the Bearer authenticates scheme.
 
 Example:
 
