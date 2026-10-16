@@ -75,7 +75,7 @@ Compiles the project to check for errors:
 dotnet build
 ```
 
-### Step 4: Run the API
+### Step 4: Running the API
 
 Starts the application using:
 
@@ -91,9 +91,9 @@ The API uses JWT authentication to authenticate requests to protected endpoints.
 
 To access a protected endpoint:
 
-1. Obtain a valid JWT token using the authentication functionality provided by the project.
+1. Obtains a valid JWT token using the authentication functionality provided by the project.
 2. Copy the token.
-3. Include the token in the HTTP request's Authorization header.
+3. Including the token in the HTTP request's Authorization header.
 4. Use the Bearer authentication scheme.
 
 Example:
@@ -102,7 +102,7 @@ Example:
 Authorization: Bearer YOUR_JWT_TOKEN
 ```
 
-Requests without a valid token may be rejected by protected endpoints.
+Requesting without a valid token may be rejected by protected endpoints.
 
 **Security note:** Keep secret keys, passwords, database credentials, and other sensitive configuration values out of source control.
 
@@ -141,7 +141,7 @@ To run the unit test, navigating to the solution directory and executes:
 dotnet test
 ```
 
-Ensure that the test project is included in the solution and that the required test packages are installed.
+Ensures that the test project is included in the solution and that the required test packages are installed.
 
 ## 9. Continuous Integration and Continuous Delivery (CI/CD)
 
@@ -153,7 +153,7 @@ The workflow should be stored in the following directory:
 .github/workflows/
 ```
 
-The workflow can be configured to run when changed are pushed to the repository or when a pull request is created.
+The workflow can be configured to run when changes are pushing to the repository or when a pull request is created.
 
 A typical CI workflow performs these steps:
 
@@ -162,7 +162,7 @@ A typical CI workflow performs these steps:
 3. Restores project dependencies.
 4. Builds the application.
 5. Runs the unit tests.
-6. Reports whether the build and tests passed or failed.
+6. Reports whether the build and tests passing or failed.
 
 The workflow should use the .NET version specified by the project and should run the tests against the correct test project or solution.
 
