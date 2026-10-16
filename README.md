@@ -23,8 +23,8 @@ The project is designed to support the following features:
 - Processing HTTP requests through API controllers.
 - Managing race day-related data.
 - Validating incoming request.
-- Securing protected endpoints using JWT authentication.
-- Handling errors and returning appropriate HTTP response.
+- Securing protected endpoint using JWT authentication.
+- Handling error and returning appropriate HTTP response.
 - Testing controller functionality through unit tests.
 - Automating build and test processes using GitHub Action.
 
@@ -83,7 +83,7 @@ Start the application using:
 dotnet run
 ```
 
-The terminal will display the local URL where the API is running. Use the displayed address to access the API.
+The terminal will displays the local URL where the API is running. Use the displayed address to access the API.
 
 ## 6. Authentication
 
