@@ -22,11 +22,11 @@ The project is designed to support the following features:
 
 - Processing HTTP requests through API controllers.
 - Managing race day-related data.
-- Validating incoming requests.
+- Validating incoming request.
 - Securing protected endpoints using JWT authentication.
-- Handling errors and returning appropriate HTTP responses.
+- Handling errors and returning appropriate HTTP response.
 - Testing controller functionality through unit tests.
-- Automating build and test processes using GitHub Actions.
+- Automating build and test processes using GitHub Action.
 
 *Note: The exact features depend on the functionality implemented in the project's controllers.*
 
