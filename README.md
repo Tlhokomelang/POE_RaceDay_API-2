@@ -123,7 +123,7 @@ The available endpoints and their HTTP methods should be confirmed from the proj
 
 ## 8. Unit Testing
 
-Unit tests are used to verify that individual components of the application behave as expected.
+Unit tests are used to verify that individual component of the application behave as expected.
 
 The tests for this project should cover the four supplied API controllers and relevant authentication configuration behaviour, where applicable.
 
@@ -135,7 +135,7 @@ Examples of areas to test include:
 - Error-handling scenarios.
 - Authentication-related behaviour.
 
-To run the unit tests, navigate to the solution directory and execute:
+To run the unit test, navigate to the solution directory and executes:
 
 ```bash
 dotnet test
@@ -145,7 +145,7 @@ Ensure that the test project is included in the solution and that the required t
 
 ## 9. Continuous Integration and Continuous Delivery (CI/CD)
 
-GitHub Actions is used to automate the project's build and testing process.
+GitHub Actions is used to automate the project's build and testing processes.
 
 The workflow should be stored in the following directory:
 
@@ -153,7 +153,7 @@ The workflow should be stored in the following directory:
 .github/workflows/
 ```
 
-The workflow can be configured to run when changes are pushed to the repository or when a pull request is created.
+The workflow can be configured to run when changed are pushed to the repository or when a pull request is created.
 
 A typical CI workflow performs these steps:
 
