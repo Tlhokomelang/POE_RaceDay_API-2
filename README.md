@@ -1,6 +1,6 @@
 # POE_RaceDay_API
 
-## 1. Project Overview
+## 1. Project Overviewing
 
 POE_RaceDay_API is an ASP.NET Core Web API project developed using C#. The API provide a backend for managing race day-related information and processes.
 
@@ -16,7 +16,7 @@ The projects includes API controlled to handled requesting and response, as well
 - Unit Testing
 - GitHub Actions for CI/CD
 
-## 3. Project Features
+## 3. Project 
 
 The project is designed to support the following features:
 
