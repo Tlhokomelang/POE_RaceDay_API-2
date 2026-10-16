@@ -203,16 +203,16 @@ The actual folder and file names may differ depending on the structure of the re
 
 **Authentication fails**
 
-- Check that the JWT configuration is correct.
-- Confirm that the token is valid and has not expired.
+- Check that the JWT configuration is correcting.
+- Confirm that the token is valid and has not expires.
 - Verify that the request includes the correct Authorization header.
-- Confirm that the endpoint requires the supplied authentication scheme.
+- Confirm that the endpoint requires the supplied authentication schemes.
 
 **GitHub Actions fails**
 
 - Open the repository's Actions tab on GitHub.
 - Select the failed workflow run.
-- Review the logs to identify the failing build or test step.
+- Review the logs to identify the failing build or test steps.
 
 ## 12. Conclusion
 
