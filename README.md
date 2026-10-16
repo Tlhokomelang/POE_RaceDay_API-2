@@ -54,14 +54,14 @@ git clone <YOUR_GITHUB_REPOSITORY_URL>
 Navigate to the project directory:
 
 ```bash
-cd POE_RaceDay
+cd POE_RaceDayAPI
 ```
 
 Replace the repository URL with your actual GitHub repository URL.
 
 ### Step 2: Restore dependencies
 
-Run the following command from the directory containing the API project file:
+Run the following command from the directory containing the API project:
 
 ```bash
 dotnet restore
