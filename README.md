@@ -20,17 +20,17 @@ The projects includes API controlled to handled requesting and responded, as wel
 
 The project is designed to support the following features:
 
-- Processing HTTP requests through API controllers.
-- Managing race day-related data.
+- Processing HTTP requesting through API controllers.
+- Managed race day-related data.
 - Validating incoming request.
-- Securing protected endpoints using JWT authentication.
+- Securing protected endpoints using JWT authentications.
 - Handling error and returning appropriate HTTP response.
 - Testing controller functionality through unit tests.
-- Automating build and test processes using GitHub Action.
+- Automating build and test processing using GitHub Action.
 
 *Note: The exact features depend on the functionality implemented in the project's controllers.*
 
-## 4. Prerequisit
+## 4. Prerequisites
 
 Before running the project, ensure that you have installed:
 
@@ -67,9 +67,9 @@ Run the following command from the directory containing the API project file:
 dotnet restore
 ```
 
-### Step 3: Build the project
+### Step 3: Building the project
 
-Compile the project to check for errors:
+Compiles the project to check for errors:
 
 ```bash
 dotnet build
