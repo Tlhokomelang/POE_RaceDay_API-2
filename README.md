@@ -9,7 +9,7 @@ The projects includes API controlled to handled requesting and response, as well
 ## 2. Technologies 
 
 - C#
-- ASP.NET Core Web API
+- ASP.NET Core Web 
 - .NET
 - JWT Authentication
 - RESTful API principles
