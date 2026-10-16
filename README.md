@@ -16,7 +16,7 @@ The projects includes API controlled to handled requesting and response, as well
 - Unit Testing
 - GitHub Actions for CI/CD
 
-## 3. Project 
+## 3. Project Feature
 
 The project is designed to support the following features:
 
@@ -32,7 +32,7 @@ The project is designed to support the following features:
 
 ## 4. Prerequisites
 
-Before running the project, ensure that you have installed:
+Before running the project, ensuring that you have installed:
 
 - .NET SDK compatible with the project.
 - Visual Studio, Visual Studio Code, or another compatible C# IDE.
@@ -87,7 +87,7 @@ The terminal will displays the local URL where the API is running. Use the displ
 
 ## 6. Authentication
 
-The API uses JWT authentication to authenticate requests to protected endpoints.
+The API uses JWT authentication to authenticate request to protecting endpoints.
 
 To access a protected endpoint:
 
